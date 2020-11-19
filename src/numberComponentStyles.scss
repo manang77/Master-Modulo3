@@ -1,0 +1,17 @@
+$border-color: green;
+$border-rad: 3px;
+$back-color: lightgreen;
+$text-color: darkgreen;
+$size: 40px;
+
+.greeting {
+  display: inline-block;
+  border: solid 2px $border-color;
+  border-radius: $border-rad;
+  background-color: $back-color;
+  color: $text-color;
+  font-size: $size;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
