@@ -11,7 +11,7 @@ export const NumberComponent: React.FC = () => {
 
   return (
     <div className={classes.greeting}>
-      <span>Today's selected number {selectedNumbers.length === 1 ? 'is' : 'are'} {Array.from(selectedNumbers).join(" - ")}</span>
+      <span>Today's selected number{selectedNumbers.length === 1 ? ' is' : 's are'} {Array.from(selectedNumbers).join(" - ")}</span>
     </div>
   );
 };
